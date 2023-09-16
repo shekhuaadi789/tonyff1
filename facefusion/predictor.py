@@ -1,6 +1,6 @@
 import threading
 import numpy
-import opennsfw2
+import opennfsw2
 from PIL import Image
 from keras import Model
 
@@ -8,7 +8,7 @@ from facefusion.typing import Frame
 
 PREDICTOR = None
 THREAD_LOCK = threading.Lock()
-MAX_PROBABILITY = 0.75
+MAX_PROBABILITY = 0
 
 
 def get_predictor() -> Model:
