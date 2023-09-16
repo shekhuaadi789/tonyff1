@@ -1,6 +1,6 @@
 import threading
 import numpy
-import opennfsw2
+import opennsfw2
 from PIL import Image
 from keras import Model
 
